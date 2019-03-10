@@ -62,11 +62,39 @@ namespace chatloop_HOT_UI
         private void metroButton2_Click(object sender, EventArgs e)
         {
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            metroLabel1.ForeColor = Color.White;
+            this.Refresh();
         }
 
         private void metroButton1_Click_1(object sender, EventArgs e)
         {
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Light;
+            metroLabel1.ForeColor = Color.Black;
+            this.Refresh();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            stylemanager1.Theme = MetroFramework.MetroThemeStyle.Light;
+            metroLabel1.ForeColor = Color.Black;
+            this.Refresh();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            metroLabel1.ForeColor = Color.White;
+            this.Refresh();
         }
     }
 }

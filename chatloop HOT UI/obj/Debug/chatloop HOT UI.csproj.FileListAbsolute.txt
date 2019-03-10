@@ -12,3 +12,17 @@ C:\Users\popc0rn\source\repos\chatloop HOT UI\chatloop HOT UI\obj\Debug\chatloop
 C:\Users\popc0rn\source\repos\chatloop HOT UI\chatloop HOT UI\obj\Debug\chatloop HOT UI.csproj.CopyComplete
 C:\Users\popc0rn\source\repos\chatloop HOT UI\chatloop HOT UI\obj\Debug\chatloop HOT UI.exe
 C:\Users\popc0rn\source\repos\chatloop HOT UI\chatloop HOT UI\obj\Debug\chatloop HOT UI.pdb
+C:\geekhub\cl2\chatloop HOT UI\bin\Debug\chatloop HOT UI.exe.config
+C:\geekhub\cl2\chatloop HOT UI\bin\Debug\chatloop HOT UI.exe
+C:\geekhub\cl2\chatloop HOT UI\bin\Debug\chatloop HOT UI.pdb
+C:\geekhub\cl2\chatloop HOT UI\bin\Debug\MetroFramework.Design.dll
+C:\geekhub\cl2\chatloop HOT UI\bin\Debug\MetroFramework.dll
+C:\geekhub\cl2\chatloop HOT UI\bin\Debug\MetroFramework.Fonts.dll
+C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csprojAssemblyReference.cache
+C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop_HOT_UI.Form1.resources
+C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop_HOT_UI.Properties.Resources.resources
+C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csproj.GenerateResource.cache
+C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csproj.CoreCompileInputs.cache
+C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csproj.CopyComplete
+C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.exe
+C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.pdb
