@@ -13,7 +13,7 @@ namespace chatloop_HOT_UI
 {
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
-        int lineNumber = -1;
+        int lineNumber = 0;
         private int result;
         public Form1()
         {
@@ -128,11 +128,11 @@ namespace chatloop_HOT_UI
 
         }
 
-        private void DelayValue_Tick(object sender, EventArgs e)
+        private void delayValue_Tick(object sender, EventArgs e)
         {
             try
             {
-                string text = (ChatLoopText.Lines[(this.lineNumber)]);
+                string text = (chattextbox.Lines[(this.lineNumber)]);
                 Clipboard.SetText(text);
                 SendKeys.Send("^{v}");
                 SendKeys.Send("{ENTER}");
@@ -145,6 +145,33 @@ namespace chatloop_HOT_UI
         }
 
         private void chattextbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void presetload_Click(object sender, EventArgs e)
+        {
+            Stream myStream;
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                if ((myStream = openFileDialog1.OpenFile()) != null)
+                {
+                    string strfilename = openFileDialog1.FileName;
+                    string filetext = File.ReadAllText(strfilename);
+                    chattextbox.Text = filetext;
+                }
+            }
+        }
+
+        private void savefile_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            if (saveFileDialog.ShowDialog() == true)
+                File.WriteAllText(saveFileDialog.FileName, chattextbox.Text);
+        }
+
+        private void sfd_FileOk(object sender, CancelEventArgs e)
         {
 
         }
