@@ -54,7 +54,7 @@
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.BackColor = System.Drawing.Color.Transparent;
             this.metroLabel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.metroLabel1.Location = new System.Drawing.Point(700, 316);
+            this.metroLabel1.Location = new System.Drawing.Point(735, 329);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(49, 19);
             this.metroLabel1.TabIndex = 1;
@@ -71,7 +71,7 @@
             this.chattextbox.ForeColor = System.Drawing.Color.Black;
             this.chattextbox.Location = new System.Drawing.Point(23, 63);
             this.chattextbox.Name = "chattextbox";
-            this.chattextbox.Size = new System.Drawing.Size(639, 352);
+            this.chattextbox.Size = new System.Drawing.Size(678, 376);
             this.chattextbox.TabIndex = 5;
             this.chattextbox.Text = "";
             this.chattextbox.TextChanged += new System.EventHandler(this.chattextbox_TextChanged);
@@ -83,7 +83,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(681, 351);
+            this.button1.Location = new System.Drawing.Point(710, 351);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 26);
             this.button1.TabIndex = 6;
@@ -102,7 +102,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(681, 389);
+            this.button2.Location = new System.Drawing.Point(710, 380);
             this.button2.Margin = new System.Windows.Forms.Padding(0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(96, 26);
@@ -122,7 +122,7 @@
             this.startbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.startbutton.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.startbutton.Location = new System.Drawing.Point(681, 163);
+            this.startbutton.Location = new System.Drawing.Point(712, 185);
             this.startbutton.Name = "startbutton";
             this.startbutton.Size = new System.Drawing.Size(96, 52);
             this.startbutton.TabIndex = 8;
@@ -136,7 +136,7 @@
             this.stopbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.stopbutton.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stopbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.stopbutton.Location = new System.Drawing.Point(681, 221);
+            this.stopbutton.Location = new System.Drawing.Point(712, 243);
             this.stopbutton.Name = "stopbutton";
             this.stopbutton.Size = new System.Drawing.Size(96, 52);
             this.stopbutton.TabIndex = 9;
@@ -148,7 +148,7 @@
             // 
             this.msvalue.BackColor = System.Drawing.Color.White;
             this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.msvalue.Location = new System.Drawing.Point(681, 97);
+            this.msvalue.Location = new System.Drawing.Point(708, 149);
             this.msvalue.Name = "msvalue";
             this.msvalue.Size = new System.Drawing.Size(100, 20);
             this.msvalue.TabIndex = 10;
@@ -160,7 +160,7 @@
             this.savefile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.savefile.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.savefile.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.savefile.Location = new System.Drawing.Point(565, 24);
+            this.savefile.Location = new System.Drawing.Point(710, 92);
             this.savefile.Name = "savefile";
             this.savefile.Size = new System.Drawing.Size(97, 23);
             this.savefile.TabIndex = 12;
@@ -174,7 +174,7 @@
             this.presetload.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.presetload.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.presetload.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.presetload.Location = new System.Drawing.Point(462, 24);
+            this.presetload.Location = new System.Drawing.Point(710, 63);
             this.presetload.Name = "presetload";
             this.presetload.Size = new System.Drawing.Size(97, 23);
             this.presetload.TabIndex = 14;
@@ -191,7 +191,7 @@
             this.delaylabel.AutoSize = true;
             this.delaylabel.BackColor = System.Drawing.Color.Transparent;
             this.delaylabel.ForeColor = System.Drawing.Color.Black;
-            this.delaylabel.Location = new System.Drawing.Point(691, 75);
+            this.delaylabel.Location = new System.Drawing.Point(726, 127);
             this.delaylabel.Name = "delaylabel";
             this.delaylabel.Size = new System.Drawing.Size(70, 19);
             this.delaylabel.TabIndex = 15;
@@ -206,7 +206,7 @@
             this.ApplyImageInvert = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(819, 462);
             this.Controls.Add(this.delaylabel);
             this.Controls.Add(this.presetload);
             this.Controls.Add(this.savefile);

@@ -34,7 +34,19 @@ namespace chatloop_HOT_UI
             this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.msvalue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
             this.msvalue.ForeColor = System.Drawing.Color.White;
-          //  this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.stopbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.stopbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.startbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.startbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.savefile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.savefile.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.presetload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.presetload.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            //  this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Refresh();
         }
 
@@ -93,6 +105,18 @@ namespace chatloop_HOT_UI
             this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.msvalue.BackColor = System.Drawing.Color.White;
             this.msvalue.ForeColor = System.Drawing.Color.Black;
+            this.button1.BackColor = System.Drawing.Color.Silver;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button2.BackColor = System.Drawing.Color.Silver;
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.stopbutton.BackColor = System.Drawing.Color.Silver;
+            this.stopbutton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.startbutton.BackColor = System.Drawing.Color.Silver;
+            this.startbutton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.savefile.BackColor = System.Drawing.Color.Silver;
+            this.savefile.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.presetload.BackColor = System.Drawing.Color.Silver;
+            this.presetload.ForeColor = System.Drawing.SystemColors.ControlText;
             // this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Refresh();
         }
@@ -107,7 +131,19 @@ namespace chatloop_HOT_UI
             this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.msvalue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
             this.msvalue.ForeColor = System.Drawing.Color.White;
-           // this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.stopbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.stopbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.startbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.startbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.savefile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.savefile.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.presetload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.presetload.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            //  this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Refresh();
         }
 
