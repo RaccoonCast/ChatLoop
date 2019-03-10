@@ -167,8 +167,20 @@ namespace chatloop_HOT_UI
         private void savefile_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
-            if (saveFileDialog.ShowDialog() == true)
-                File.WriteAllText(saveFileDialog.FileName, chattextbox.Text);
+            // if you want to add text name saveFileDialog.FileName = "Preset.txt";  
+            saveFileDialog.Filter = "Preset File | *.txt";
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                using (
+                    // this is what ur parents mean when they say don't touch -- don't touch code
+                    Stream s = File.Open(saveFileDialog.FileName, FileMode.CreateNew))
+                using (StreamWriter sw = new StreamWriter(s))
+                {
+                    sw.Write(chattextbox.Text);
+
+                }
+
+            }
         }
 
         private void sfd_FileOk(object sender, CancelEventArgs e)
