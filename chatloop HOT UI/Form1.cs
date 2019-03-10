@@ -29,10 +29,10 @@ namespace chatloop_HOT_UI
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
             metroLabel1.ForeColor = Color.White;
             delaylabel.ForeColor = Color.White;
-            this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.chattextbox.ForeColor = System.Drawing.Color.White;
             this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.msvalue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.msvalue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.msvalue.ForeColor = System.Drawing.Color.White;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -106,10 +106,10 @@ namespace chatloop_HOT_UI
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
             metroLabel1.ForeColor = Color.White;
             delaylabel.ForeColor = Color.White;
-            this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.chattextbox.ForeColor = System.Drawing.Color.White;
             this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.msvalue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.msvalue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.msvalue.ForeColor = System.Drawing.Color.White;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
