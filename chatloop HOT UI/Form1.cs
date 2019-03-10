@@ -60,26 +60,6 @@ namespace chatloop_HOT_UI
 
         }
 
-        private void metroPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void metroTile1_Click(object sender, EventArgs e)
-        {
-            stylemanager1.Theme = MetroFramework.MetroThemeStyle.Light;
-        }
-
-        private void metroTile2_Click(object sender, EventArgs e)
-        {
-            stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
-        }
-
-        private void metroTile1_Click_1(object sender, EventArgs e)
-        {
-            stylemanager1.Theme = MetroFramework.MetroThemeStyle.Light;
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
 
