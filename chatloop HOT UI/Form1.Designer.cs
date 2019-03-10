@@ -1,4 +1,4 @@
-﻿namespace chatloop_HOT_UI
+﻿namespace chatloop
 {
     partial class Form1
     {

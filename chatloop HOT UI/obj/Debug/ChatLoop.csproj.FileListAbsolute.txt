@@ -1,0 +1,14 @@
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\ChatLoop.exe.config
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\ChatLoop.exe
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\ChatLoop.pdb
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\MetroFramework.Design.dll
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\MetroFramework.dll
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\MetroFramework.Fonts.dll
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.csprojAssemblyReference.cache
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.Properties.Resources.resources
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.csproj.GenerateResource.cache
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.csproj.CoreCompileInputs.cache
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.csproj.CopyComplete
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.exe
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.pdb
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop.Form1.resources

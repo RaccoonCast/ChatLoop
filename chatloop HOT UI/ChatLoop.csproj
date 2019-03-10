@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D3CF7C3A-36F1-4DF8-BC0B-727539EAA323}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>chatloop_HOT_UI</RootNamespace>
-    <AssemblyName>chatloop HOT UI</AssemblyName>
+    <RootNamespace>ChatLoop</RootNamespace>
+    <AssemblyName>ChatLoop</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -74,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Threading; 
 
-namespace chatloop_HOT_UI
+namespace chatloop
 {
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
