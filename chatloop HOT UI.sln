@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chatloop HOT UI", "chatloop HOT UI\chatloop HOT UI.csproj", "{D3CF7C3A-36F1-4DF8-BC0B-727539EAA323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3CF7C3A-36F1-4DF8-BC0B-727539EAA323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CF7C3A-36F1-4DF8-BC0B-727539EAA323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CF7C3A-36F1-4DF8-BC0B-727539EAA323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CF7C3A-36F1-4DF8-BC0B-727539EAA323}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {393795E5-0ADF-4FE4-824A-F821DCDA94C7}
+	EndGlobalSection
+EndGlobal
