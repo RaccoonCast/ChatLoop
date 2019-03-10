@@ -128,20 +128,15 @@ namespace chatloop_HOT_UI
 
         }
 
-        private void delayValue_Tick(object sender, EventArgs e)
+        private void DelayValue_Tick(object sender, EventArgs e)
         {
             try
             {
-                string textcheck = (chattextbox.Lines[(this.lineNumber)]);
-                if (string.IsNullOrEmpty(textcheck))
-                {
-                    lineNumber = 0;
-                }
-                string text = (chattextbox.Lines[(this.lineNumber)]);
+                string text = (ChatLoopText.Lines[(this.lineNumber)]);
                 Clipboard.SetText(text);
                 SendKeys.Send("^{v}");
                 SendKeys.Send("{ENTER}");
-                lineNumber = lineNumber + 1;
+                lineNumber += 1;
             }
             catch (Exception)
             {
