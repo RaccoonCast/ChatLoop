@@ -31,11 +31,13 @@
             this.components = new System.ComponentModel.Container();
             this.stylemanager1 = new MetroFramework.Components.MetroStyleManager(this.components);
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.chattextbox = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button3 = new System.Windows.Forms.Button();
+            this.delayValue = new System.Windows.Forms.Timer(this.components);
+            this.startbutton = new System.Windows.Forms.Button();
+            this.stopbutton = new System.Windows.Forms.Button();
+            this.msvalue = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.stylemanager1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,13 +60,14 @@
             this.metroLabel1.UseStyleColors = true;
             this.metroLabel1.Click += new System.EventHandler(this.metroLabel1_Click);
             // 
-            // richTextBox1
+            // chattextbox
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(23, 63);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(639, 352);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "";
+            this.chattextbox.Location = new System.Drawing.Point(23, 63);
+            this.chattextbox.Name = "chattextbox";
+            this.chattextbox.Size = new System.Drawing.Size(639, 352);
+            this.chattextbox.TabIndex = 5;
+            this.chattextbox.Text = "";
+            this.chattextbox.TextChanged += new System.EventHandler(this.chattextbox_TextChanged);
             // 
             // button1
             // 
@@ -99,14 +102,37 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // delayValue
             // 
-            this.button3.Location = new System.Drawing.Point(681, 146);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(96, 52);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.delayValue.Tick += new System.EventHandler(this.delayValue_Tick);
+            // 
+            // startbutton
+            // 
+            this.startbutton.Location = new System.Drawing.Point(681, 146);
+            this.startbutton.Name = "startbutton";
+            this.startbutton.Size = new System.Drawing.Size(96, 52);
+            this.startbutton.TabIndex = 8;
+            this.startbutton.Text = "startbutton";
+            this.startbutton.UseVisualStyleBackColor = true;
+            this.startbutton.Click += new System.EventHandler(this.startbutton_Click);
+            // 
+            // stopbutton
+            // 
+            this.stopbutton.Location = new System.Drawing.Point(681, 204);
+            this.stopbutton.Name = "stopbutton";
+            this.stopbutton.Size = new System.Drawing.Size(96, 52);
+            this.stopbutton.TabIndex = 9;
+            this.stopbutton.Text = "stopbutton";
+            this.stopbutton.UseVisualStyleBackColor = true;
+            this.stopbutton.Click += new System.EventHandler(this.stopbutton_Click);
+            // 
+            // msvalue
+            // 
+            this.msvalue.Location = new System.Drawing.Point(681, 53);
+            this.msvalue.Name = "msvalue";
+            this.msvalue.Size = new System.Drawing.Size(100, 20);
+            this.msvalue.TabIndex = 10;
+            this.msvalue.TextChanged += new System.EventHandler(this.msvalue_TextChanged);
             // 
             // Form1
             // 
@@ -114,10 +140,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.msvalue);
+            this.Controls.Add(this.stopbutton);
+            this.Controls.Add(this.startbutton);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.chattextbox);
             this.Controls.Add(this.metroLabel1);
             this.Name = "Form1";
             this.Style = MetroFramework.MetroColorStyle.Default;
@@ -133,11 +161,13 @@
         #endregion
         private MetroFramework.Components.MetroStyleManager stylemanager1;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox chattextbox;
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Timer delayValue;
+        private System.Windows.Forms.Button startbutton;
+        private System.Windows.Forms.Button stopbutton;
+        private System.Windows.Forms.TextBox msvalue;
     }
 }
 
