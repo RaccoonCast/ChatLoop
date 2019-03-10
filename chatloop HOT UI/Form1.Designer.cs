@@ -38,6 +38,9 @@
             this.startbutton = new System.Windows.Forms.Button();
             this.stopbutton = new System.Windows.Forms.Button();
             this.msvalue = new System.Windows.Forms.TextBox();
+            this.savefile = new System.Windows.Forms.Button();
+            this.presetload = new System.Windows.Forms.Button();
+            this.safeFileDialog = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.stylemanager1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,12 +137,38 @@
             this.msvalue.TabIndex = 10;
             this.msvalue.TextChanged += new System.EventHandler(this.msvalue_TextChanged);
             // 
+            // savefile
+            // 
+            this.savefile.Location = new System.Drawing.Point(585, 24);
+            this.savefile.Name = "savefile";
+            this.savefile.Size = new System.Drawing.Size(75, 23);
+            this.savefile.TabIndex = 12;
+            this.savefile.Text = "savefile";
+            this.savefile.UseVisualStyleBackColor = true;
+            this.savefile.Click += new System.EventHandler(this.savefile_Click);
+            // 
+            // presetload
+            // 
+            this.presetload.Location = new System.Drawing.Point(475, 23);
+            this.presetload.Name = "presetload";
+            this.presetload.Size = new System.Drawing.Size(75, 23);
+            this.presetload.TabIndex = 14;
+            this.presetload.Text = "presetload";
+            this.presetload.UseVisualStyleBackColor = true;
+            this.presetload.Click += new System.EventHandler(this.presetload_Click);
+            // 
+            // safeFileDialog
+            // 
+            this.safeFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.sfd_FileOk);
+            // 
             // Form1
             // 
             this.ApplyImageInvert = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.presetload);
+            this.Controls.Add(this.savefile);
             this.Controls.Add(this.msvalue);
             this.Controls.Add(this.stopbutton);
             this.Controls.Add(this.startbutton);
@@ -168,6 +197,9 @@
         private System.Windows.Forms.Button startbutton;
         private System.Windows.Forms.Button stopbutton;
         private System.Windows.Forms.TextBox msvalue;
+        private System.Windows.Forms.Button savefile;
+        private System.Windows.Forms.Button presetload;
+        private System.Windows.Forms.SaveFileDialog safeFileDialog;
     }
 }
 
