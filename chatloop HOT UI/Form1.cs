@@ -12,6 +12,10 @@ namespace chatloop_HOT_UI
 {
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
+
+        int lineNumber = 0;
+        private int result;
+
         public Form1()
         {
             InitializeComponent();
@@ -95,6 +99,45 @@ namespace chatloop_HOT_UI
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
             metroLabel1.ForeColor = Color.White;
             this.Refresh();
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            DelayValue.Enabled = false;
+        }
+       private void Button4_Click(object sender, EventArgs e)
+        {
+            DelayValue.Enabled = true;
+        }
+        private void DelayValue_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+                string textcheck = (ChatLoopText.Lines[(this.lineNumber)]);
+                if (string.IsNullOrEmpty(textcheck))
+                {
+                    lineNumber = 0;
+                }
+                string text = (ChatLoopText.Lines[(this.lineNumber)]);
+                Clipboard.SetText(text);
+                SendKeys.Send("^{v}");
+                SendKeys.Send("{ENTER}");
+                lineNumber = lineNumber + 1;
+            }
+            catch (Exception)
+            {
+                lineNumber = 0;
+            }
+        }
+
+        private void ChatLoopText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DelayValue_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -31,11 +31,13 @@
             this.components = new System.ComponentModel.Container();
             this.stylemanager1 = new MetroFramework.Components.MetroStyleManager(this.components);
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.ChatLoopText = new System.Windows.Forms.RichTextBox();
+            this.delayValue = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.stylemanager1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,19 +60,11 @@
             this.metroLabel1.UseStyleColors = true;
             this.metroLabel1.Click += new System.EventHandler(this.metroLabel1_Click);
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(23, 63);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(639, 352);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "";
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(681, 351);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 26);
@@ -88,7 +82,7 @@
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Location = new System.Drawing.Point(681, 389);
             this.button2.Margin = new System.Windows.Forms.Padding(0);
@@ -101,12 +95,39 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(681, 146);
+            this.button3.Location = new System.Drawing.Point(681, 245);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(96, 52);
             this.button3.TabIndex = 8;
-            this.button3.Text = "button3";
+            this.button3.Text = "Start";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(681, 193);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(96, 46);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Stop";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // ChatLoopText
+            // 
+            this.ChatLoopText.Location = new System.Drawing.Point(23, 63);
+            this.ChatLoopText.Name = "ChatLoopText";
+            this.ChatLoopText.Size = new System.Drawing.Size(652, 364);
+            this.ChatLoopText.TabIndex = 10;
+            this.ChatLoopText.Text = "";
+            this.ChatLoopText.TextChanged += new System.EventHandler(this.ChatLoopText_TextChanged);
+            // 
+            // delayValue
+            // 
+            this.delayValue.Location = new System.Drawing.Point(682, 64);
+            this.delayValue.Name = "delayValue";
+            this.delayValue.Size = new System.Drawing.Size(100, 20);
+            this.delayValue.TabIndex = 11;
+            this.delayValue.TextChanged += new System.EventHandler(this.DelayValue_TextChanged);
             // 
             // Form1
             // 
@@ -114,10 +135,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.delayValue);
+            this.Controls.Add(this.ChatLoopText);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.metroLabel1);
             this.Name = "Form1";
             this.Style = MetroFramework.MetroColorStyle.Default;
@@ -133,11 +156,13 @@
         #endregion
         private MetroFramework.Components.MetroStyleManager stylemanager1;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Button button2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.RichTextBox ChatLoopText;
+        private System.Windows.Forms.TextBox delayValue;
     }
 }
 

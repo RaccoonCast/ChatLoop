@@ -26,3 +26,17 @@ C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csproj.CoreCompileInput
 C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csproj.CopyComplete
 C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.exe
 C:\geekhub\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.pdb
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\chatloop HOT UI.exe.config
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\chatloop HOT UI.exe
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\chatloop HOT UI.pdb
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\MetroFramework.Design.dll
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\MetroFramework.dll
+D:\ShitCraft\other\cl2\chatloop HOT UI\bin\Debug\MetroFramework.Fonts.dll
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csprojAssemblyReference.cache
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop_HOT_UI.Form1.resources
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop_HOT_UI.Properties.Resources.resources
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csproj.GenerateResource.cache
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csproj.CoreCompileInputs.cache
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.csproj.CopyComplete
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.exe
+D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop HOT UI.pdb
