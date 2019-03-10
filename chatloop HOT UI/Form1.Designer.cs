@@ -66,7 +66,7 @@
             // 
             // chattextbox
             // 
-            this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.chattextbox.ForeColor = System.Drawing.Color.Black;
             this.chattextbox.Location = new System.Drawing.Point(23, 63);
