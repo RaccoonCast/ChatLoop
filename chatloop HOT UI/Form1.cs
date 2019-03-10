@@ -26,7 +26,16 @@ namespace chatloop_HOT_UI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            metroLabel1.ForeColor = Color.White;
+            delaylabel.ForeColor = Color.White;
+            this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.chattextbox.ForeColor = System.Drawing.Color.White;
+            this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.msvalue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.msvalue.ForeColor = System.Drawing.Color.White;
+          //  this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Refresh();
         }
 
         private void metroButton1_Click(object sender, EventArgs e)
@@ -64,20 +73,6 @@ namespace chatloop_HOT_UI
 
         }
 
-        private void metroButton2_Click(object sender, EventArgs e)
-        {
-            stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            metroLabel1.ForeColor = Color.White;
-            this.Refresh();
-        }
-
-        private void metroButton1_Click_1(object sender, EventArgs e)
-        {
-            stylemanager1.Theme = MetroFramework.MetroThemeStyle.Light;
-            metroLabel1.ForeColor = Color.Black;
-            this.Refresh();
-        }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -92,6 +87,13 @@ namespace chatloop_HOT_UI
         {
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Light;
             metroLabel1.ForeColor = Color.Black;
+            delaylabel.ForeColor = Color.Black;
+            this.chattextbox.BackColor = System.Drawing.Color.White;
+            this.chattextbox.ForeColor = System.Drawing.Color.Black;
+            this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.msvalue.BackColor = System.Drawing.Color.White;
+            this.msvalue.ForeColor = System.Drawing.Color.Black;
+            // this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Refresh();
         }
 
@@ -99,6 +101,13 @@ namespace chatloop_HOT_UI
         {
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
             metroLabel1.ForeColor = Color.White;
+            delaylabel.ForeColor = Color.White;
+            this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.chattextbox.ForeColor = System.Drawing.Color.White;
+            this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.msvalue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.msvalue.ForeColor = System.Drawing.Color.White;
+           // this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Refresh();
         }
 
@@ -186,6 +195,11 @@ namespace chatloop_HOT_UI
         }
 
         private void sfd_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void delaylabel_Click(object sender, EventArgs e)
         {
 
         }

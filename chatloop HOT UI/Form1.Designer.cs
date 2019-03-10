@@ -41,6 +41,7 @@
             this.savefile = new System.Windows.Forms.Button();
             this.presetload = new System.Windows.Forms.Button();
             this.safeFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.delaylabel = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.stylemanager1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,6 +66,9 @@
             // 
             // chattextbox
             // 
+            this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(83)))));
+            this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.chattextbox.ForeColor = System.Drawing.Color.Black;
             this.chattextbox.Location = new System.Drawing.Point(23, 63);
             this.chattextbox.Name = "chattextbox";
             this.chattextbox.Size = new System.Drawing.Size(639, 352);
@@ -74,9 +78,11 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button1.Location = new System.Drawing.Point(681, 351);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 26);
@@ -107,31 +113,42 @@
             // 
             // delayValue
             // 
+            this.delayValue.Interval = 1000;
             this.delayValue.Tick += new System.EventHandler(this.delayValue_Tick);
             // 
             // startbutton
             // 
-            this.startbutton.Location = new System.Drawing.Point(681, 146);
+            this.startbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.startbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.startbutton.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.startbutton.Location = new System.Drawing.Point(681, 163);
             this.startbutton.Name = "startbutton";
             this.startbutton.Size = new System.Drawing.Size(96, 52);
             this.startbutton.TabIndex = 8;
-            this.startbutton.Text = "startbutton";
-            this.startbutton.UseVisualStyleBackColor = true;
+            this.startbutton.Text = "Start";
+            this.startbutton.UseVisualStyleBackColor = false;
             this.startbutton.Click += new System.EventHandler(this.startbutton_Click);
             // 
             // stopbutton
             // 
-            this.stopbutton.Location = new System.Drawing.Point(681, 204);
+            this.stopbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.stopbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.stopbutton.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stopbutton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.stopbutton.Location = new System.Drawing.Point(681, 221);
             this.stopbutton.Name = "stopbutton";
             this.stopbutton.Size = new System.Drawing.Size(96, 52);
             this.stopbutton.TabIndex = 9;
-            this.stopbutton.Text = "stopbutton";
-            this.stopbutton.UseVisualStyleBackColor = true;
+            this.stopbutton.Text = "Stop";
+            this.stopbutton.UseVisualStyleBackColor = false;
             this.stopbutton.Click += new System.EventHandler(this.stopbutton_Click);
             // 
             // msvalue
             // 
-            this.msvalue.Location = new System.Drawing.Point(681, 53);
+            this.msvalue.BackColor = System.Drawing.Color.White;
+            this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.msvalue.Location = new System.Drawing.Point(681, 97);
             this.msvalue.Name = "msvalue";
             this.msvalue.Size = new System.Drawing.Size(100, 20);
             this.msvalue.TabIndex = 10;
@@ -139,27 +156,50 @@
             // 
             // savefile
             // 
-            this.savefile.Location = new System.Drawing.Point(585, 24);
+            this.savefile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.savefile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.savefile.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.savefile.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.savefile.Location = new System.Drawing.Point(565, 24);
             this.savefile.Name = "savefile";
-            this.savefile.Size = new System.Drawing.Size(75, 23);
+            this.savefile.Size = new System.Drawing.Size(97, 23);
             this.savefile.TabIndex = 12;
-            this.savefile.Text = "savefile";
-            this.savefile.UseVisualStyleBackColor = true;
+            this.savefile.Text = "Save Preset";
+            this.savefile.UseVisualStyleBackColor = false;
             this.savefile.Click += new System.EventHandler(this.savefile_Click);
             // 
             // presetload
             // 
-            this.presetload.Location = new System.Drawing.Point(475, 23);
+            this.presetload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.presetload.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.presetload.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.presetload.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.presetload.Location = new System.Drawing.Point(462, 24);
             this.presetload.Name = "presetload";
-            this.presetload.Size = new System.Drawing.Size(75, 23);
+            this.presetload.Size = new System.Drawing.Size(97, 23);
             this.presetload.TabIndex = 14;
-            this.presetload.Text = "presetload";
-            this.presetload.UseVisualStyleBackColor = true;
+            this.presetload.Text = "Load Preset";
+            this.presetload.UseVisualStyleBackColor = false;
             this.presetload.Click += new System.EventHandler(this.presetload_Click);
             // 
             // safeFileDialog
             // 
             this.safeFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.sfd_FileOk);
+            // 
+            // delaylabel
+            // 
+            this.delaylabel.AutoSize = true;
+            this.delaylabel.BackColor = System.Drawing.Color.Transparent;
+            this.delaylabel.ForeColor = System.Drawing.Color.Black;
+            this.delaylabel.Location = new System.Drawing.Point(691, 75);
+            this.delaylabel.Name = "delaylabel";
+            this.delaylabel.Size = new System.Drawing.Size(70, 19);
+            this.delaylabel.TabIndex = 15;
+            this.delaylabel.Text = "Delay (ms)";
+            this.delaylabel.UseCustomBackColor = true;
+            this.delaylabel.UseCustomForeColor = true;
+            this.delaylabel.UseStyleColors = true;
+            this.delaylabel.Click += new System.EventHandler(this.delaylabel_Click);
             // 
             // Form1
             // 
@@ -167,6 +207,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.delaylabel);
             this.Controls.Add(this.presetload);
             this.Controls.Add(this.savefile);
             this.Controls.Add(this.msvalue);
@@ -177,7 +218,9 @@
             this.Controls.Add(this.chattextbox);
             this.Controls.Add(this.metroLabel1);
             this.Name = "Form1";
-            this.Style = MetroFramework.MetroColorStyle.Default;
+            this.Resizable = false;
+            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.None;
+            this.Style = MetroFramework.MetroColorStyle.Brown;
             this.Text = "ChatLoop ";
             this.Theme = MetroFramework.MetroThemeStyle.Default;
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -200,6 +243,7 @@
         private System.Windows.Forms.Button savefile;
         private System.Windows.Forms.Button presetload;
         private System.Windows.Forms.SaveFileDialog safeFileDialog;
+        public MetroFramework.Controls.MetroLabel delaylabel;
     }
 }
 
