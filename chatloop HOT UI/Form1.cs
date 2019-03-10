@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Threading; 
 
 namespace chatloop_HOT_UI
 {
@@ -103,6 +104,7 @@ namespace chatloop_HOT_UI
 
         private void startbutton_Click(object sender, EventArgs e)
         {
+            Thread.Sleep(1250);
             lineNumber = 0;
             delayValue.Enabled = true;
         }
