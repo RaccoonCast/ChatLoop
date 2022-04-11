@@ -12,3 +12,17 @@ D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.csproj.CopyComplete
 D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.exe
 D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\ChatLoop.pdb
 D:\ShitCraft\other\cl2\chatloop HOT UI\obj\Debug\chatloop.Form1.resources
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\obj\Debug\ChatLoop.csproj.AssemblyReference.cache
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\obj\Debug\chatloop.Form1.resources
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\obj\Debug\ChatLoop.Properties.Resources.resources
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\obj\Debug\ChatLoop.csproj.GenerateResource.cache
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\obj\Debug\ChatLoop.csproj.CoreCompileInputs.cache
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\obj\Debug\ChatLoop.exe
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\obj\Debug\ChatLoop.pdb
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\bin\Debug\ChatLoop.exe.config
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\bin\Debug\ChatLoop.exe
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\bin\Debug\ChatLoop.pdb
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\bin\Debug\MetroFramework.Design.dll
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\bin\Debug\MetroFramework.dll
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\membe\Documents\GitHub\ChatLoop\chatloop\obj\Debug\ChatLoop.csproj.CopyComplete

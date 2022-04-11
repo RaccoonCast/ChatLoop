@@ -15,6 +15,7 @@ namespace chatloop
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         int lineNumber = 0;
+        int loop = 0;
         private int result;
         public Form1()
         {
@@ -29,6 +30,7 @@ namespace chatloop
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
             metroLabel1.ForeColor = Color.White;
             delaylabel.ForeColor = Color.White;
+            metroLabel2.ForeColor = Color.White;
             this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.chattextbox.ForeColor = System.Drawing.Color.White;
             this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -80,6 +82,7 @@ namespace chatloop
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Light;
             metroLabel1.ForeColor = Color.Black;
             delaylabel.ForeColor = Color.Black;
+            metroLabel2.ForeColor = Color.Black;
             this.chattextbox.BackColor = System.Drawing.Color.White;
             this.chattextbox.ForeColor = System.Drawing.Color.Black;
             this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -97,6 +100,10 @@ namespace chatloop
             this.savefile.ForeColor = System.Drawing.SystemColors.ControlText;
             this.presetload.BackColor = System.Drawing.Color.Silver;
             this.presetload.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button3.BackColor = System.Drawing.Color.Silver;
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button4.BackColor = System.Drawing.Color.Silver;
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
             // this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Refresh();
         }
@@ -106,6 +113,7 @@ namespace chatloop
             stylemanager1.Theme = MetroFramework.MetroThemeStyle.Dark;
             metroLabel1.ForeColor = Color.White;
             delaylabel.ForeColor = Color.White;
+            metroLabel2.ForeColor = Color.White;
             this.chattextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.chattextbox.ForeColor = System.Drawing.Color.White;
             this.chattextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -123,6 +131,11 @@ namespace chatloop
             this.savefile.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.presetload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.presetload.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+
             //  this.msvalue.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Refresh();
         }
@@ -167,7 +180,7 @@ namespace chatloop
             }
             catch (Exception)
             {
-                lineNumber = 0;
+                lineNumber = loop;
             }
         }
 
@@ -217,6 +230,17 @@ namespace chatloop
 
         private void delaylabel_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            loop = 0;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            loop = -1;
 
         }
     }
