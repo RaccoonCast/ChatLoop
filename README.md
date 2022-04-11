@@ -1,5 +1,5 @@
 # ChatLoop
-## _The Most Simple Spammer_
+## _The Most Sophisticated Spammer_
 
 [![N|Solid](https://imgur.com/bhHEozB.png)](https://www.whitehouse.gov/)
 
